@@ -8,9 +8,10 @@ However the methods implemented can equally be applied to other areas of physics
 
 ## Installation
 
-The package may be installed by typing `]` in a Julia REPL to enter the package manager, and then run the command
+The package may be installed by typing the following into a Julia REPL
+
 ```julia
-    pkg> add MPSDynamics
+    ] add https://github.com/shareloqs/MPSDynamics.git
 ```
 
 ## Table of Contents
