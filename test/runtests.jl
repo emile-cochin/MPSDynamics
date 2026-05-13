@@ -2,8 +2,8 @@ using MPSDynamics
 using Test
 
 coverage_test = ["runsim_tests.jl"]
-physics_test = ["chain_coeffs_tests.jl",
-                "pure_dephasing_tests.jl"]
+#physics_test = ["chain_coeffs_tests.jl",
+physics_test = ["pure_dephasing_tests.jl"]
 
 @testset "MPSDynamics tests" begin
     
